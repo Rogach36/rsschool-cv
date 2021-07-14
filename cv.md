@@ -1,0 +1,2 @@
+My name is _**Aleksey Rogach**_. Now I am working as a content manager/web-editor at Samara University.
+I would like to become a front-end developer. I wish to get the necessary knowledge in order to further apply for the position of junior web-developer. Development attracts me because, unlike the current work of the content manager, it allows not just maintaining the site, but creating it. It is much more complicated, but there is much more creativity. In addition, to create not just modern, but convenient sites with an accessible interfaces- means to benefit society.
