@@ -12,3 +12,12 @@ At my current job, I was **studying English** under the program of *the Universi
 * http://github.com/Rogach36/zippy_63
 * http://github.com/Rogach36/798729-nerds-25
  
+ ## Education
+I graduated from Samara State University with a degree in Russian history in 2009.
+As I mentioned above, I graduated intensive course from the Academy, before that I took their interactive courses, and a little earlier I attended a level 1 JavaScript course from **GeekBrains**. JS is given to me with great difficulty, I hope your courses will fill in the missing knowledge and allow me to confidently solve the problems facing junior web developer.
+
+## Contacts
+* E-mail: alekss.r@mail.ru;
+* Skype account: alrog63;
+* Cell-phone: +79272063321;
+* telegram: https://t.me/serb3.
