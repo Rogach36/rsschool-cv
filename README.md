@@ -1,1 +1,0 @@
-https://Rogach36.github.io/rsschool-cv/cv
