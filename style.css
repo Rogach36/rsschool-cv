@@ -1,0 +1,150 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Arial, sans-serif;
+    color: #000000;
+    background-color: #f0f0e7;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  .container-center {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .main-content {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .main-header {
+    text-align: center;
+  }
+
+  .main-header__pic {
+    border-radius: 50%;
+    margin-top: 40px;
+  }
+
+  .main-header__name {
+    font-size: 21px;
+  }
+
+.main-header__current-position {
+  font-size: 18px;
+}
+
+  .main-content__name {
+    font-style: italic;
+    font-weight: 700;
+  }
+
+  .profile,
+  .education,
+  .work-experience,
+  .skills,
+  .examples,
+  .contacts {
+      width: 550px;
+      padding: 15px;
+  }
+
+  .skills,
+  .examples,
+  .contacts {
+    margin-left: auto;
+  }
+
+  .profile {
+    order: -6;
+  }
+  .skills {
+    order: -5;
+  }
+
+  .education {
+    order: -4;
+  }
+
+  .examples {
+    order: -3;
+  }
+
+  .work-experience__role {
+    font-style: italic;
+  }
+
+  .contacts__link,
+  .examples__link,
+  .work-experience__place {
+    color: #cd5b45;
+  }
+
+  .contacts__link:hover,
+  .examples__link:hover,
+  .work-experience__place:hover {
+    text-decoration: underline;
+    color: #a31e03;
+  }
+
+  .contacts__link:active,
+  .examples__link:active,
+  .work-experience__place:active {
+    text-decoration: none;
+    color: #f80404;
+  }
+
+  .main-footer {
+    display: flex;
+    padding-top: 80px;
+  }
+
+  .main-footer__copyright {
+    margin-left: auto;
+  }
+
+  .main-footer__link {
+    color:rgba(65, 58, 58, 0.884);
+  }
+
+  .main-footer__link:hover {
+    text-decoration: underline;
+    color:rgba(36, 34, 34, 0.884);
+  }
+
+  .main-footer__link:active {
+    text-decoration: none;
+    color:#00008b;
+  }
