@@ -55,6 +55,7 @@ html {
 
   .main-header__pic {
     border-radius: 50%;
+    margin-top: 40px;
   }
 
   .main-header__name {
@@ -74,15 +75,15 @@ html {
   .education,
   .work-experience,
   .skills,
-  .exaples,
-  .contactcs {
+  .examples,
+  .contacts {
       width: 550px;
       padding: 15px;
   }
 
   .skills,
-  .exaples,
-  .contactcs {
+  .examples,
+  .contacts {
     margin-left: auto;
   }
 
@@ -97,7 +98,7 @@ html {
     order: -4;
   }
 
-  .exaples {
+  .examples {
     order: -3;
   }
 
@@ -106,20 +107,20 @@ html {
   }
 
   .contacts__link,
-  .exaples__link,
+  .examples__link,
   .work-experience__place {
     color: #cd5b45;
   }
 
   .contacts__link:hover,
-  .exaples__link:hover,
+  .examples__link:hover,
   .work-experience__place:hover {
     text-decoration: underline;
     color: #a31e03;
   }
 
   .contacts__link:active,
-  .exaples__link:active,
+  .examples__link:active,
   .work-experience__place:active {
     text-decoration: none;
     color: #f80404;
