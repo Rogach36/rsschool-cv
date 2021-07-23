@@ -87,6 +87,10 @@ html {
     margin-left: auto;
   }
 
+  .skills__items-name {
+    font-weight: 700;
+  }
+
   .profile {
     order: -6;
   }
