@@ -10,6 +10,28 @@
   <body>
     <div class="wrapper"></div>
       <header class="main-header container-center">
+        <nav class="main-header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#profile" class="menu__link">Profile</a>
+            </li>
+            <li class="menu__item">
+              <a href="#skills" class="menu__link">Skills</a>
+            </li>
+            <li class="menu__item">
+              <a href="#education" class="menu__link">Education</a>
+            </li>
+            <li class="menu__item">
+              <a href="#examples" class="menu__link">Examples</a>
+            </li>
+            <li class="menu__item">
+              <a href="#work-experience" class="menu__link">Work-experience</a>
+            </li>
+            <li class="menu__item">
+              <a href="#contacts" class="menu__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
         <img class="main-header__pic" src="img/profile-pic.jpg" width="250" height="250" alt="Alexey Rogach photo">
         <p class="main-header__name">Alexey Rogach</p>
         <p class="main-header__current-position">Web editor/content manager</p>
@@ -17,17 +39,17 @@
       </header>
       <main class="main-content container-center">
         <h1 class="visually-hidden">Сurriculum vitae</h1>        
-        <section class="profile">
+        <section class="profile" id="profile">
           <h2 class="profile__title">Profile</h2>
           <p>My name is <span class="main-content__name">Aleksey Rogach</span>. Now I am working as a content manager/web-editor at Samara University. I would like to become a front-end developer. I wish to get the necessary knowledge in order to further apply for the position of junior web-developer. Development attracts me because, unlike the current work of the content manager, it allows not just maintaining the site, but creating it. It is much more complicated, but there is much more creativity. In addition, to create not just modern, but convenient sites with an accessible interfaces- means to benefit society.</p>        
         </section>
-        <section class="education">
+        <section class="education" id="education">
           <h2 class="education__title">Education</h2>
           <p>I graduated from Samara State University with a degree in Russian history in 2009. At the basic level I own HTML 5/CSS3, a bit familiar with с JS, less preprocessor. In 2019 and 2020 took two intensive courses in HTML and CSS (from <strong>HTML Academy</strong>). The first was devoted to the study of the basic techniques of professional website layout; the second taught how to create adaptive websites using automation tools. After that, I made some simple landing pages using psd and figma layouts to consolidate my knowledge.</p>
           <p>I also attended a level I JavaScript course from <strong>GeekBrains</strong>. JS is given to me with great difficulty, I hope your courses will fill in the missing knowledge and allow me to confidently solve the problems facing junior web developer.</p>
           <p>At my current job, I was studying English under the program of the University of Oxford. The current level of <strong>language proficiency is A2.</strong></p>
         </section>
-        <section class="work-experience">
+        <section class="work-experience" id="work-experience">
           <h2 class="work-experience__title">Work-experience</h2>
           <dl class="work-experience__list">
             <dt class="work-experience__date"><b>November 2014 - to the present</b> <a class="work-experience__place" href="https://ssau.ru/" target="blank">Samara National Research University</a></dt>
@@ -36,7 +58,7 @@
             <dd class="work-experience__role">Web Editor/Content Manager</dd>
           </dl>
         </section>       
-        <section class="skills">
+        <section class="skills" id="skills">
           <h2 class="skills__title">Skills</h2>
           <ul class="skills__list">
             <li class="skills__items"><span class="skills__items-name">HTML 5</span> – base level</li>
@@ -49,7 +71,7 @@
             <li class="skills__items"><span class="skills__items-name">English</span> - level A2</li>
           </ul>      
         </section>
-        <section class="examples">
+        <section class="examples" id="examples">
           <h2 class="examples__title">Examples</h2>
           <ul class="examples__list">
             <li class="examples__items"><a class="examples__link" href="https://github.com/Rogach36/798729-pink-20">https://github.com/Rogach36/798729-pink-20</a></li>
@@ -58,8 +80,8 @@
             <li class="examples__items"><a class="examples__link" href="http://github.com/Rogach36/798729-nerds-25">http://github.com/Rogach36/798729-nerds-25</a></li>            
           </ul>
         </section>        
-        <section class="contacts">
-          <h2 class="contacts__title">Contactcs</h2>
+        <section class="contacts" id="contacts">
+          <h2 class="contacts__title">Contacts</h2>
           <ul>
             <li>E-mail:<a class="contacts__link" href="maito:alekss.r@mail.ru">alekss.r@mail.ru</a></li>
             <li>Skype account: <a class="contacts__link" href="https://join.skype.com/invite/lhr4MZODu08m">alrog63</a></li>
