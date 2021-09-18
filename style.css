@@ -15,6 +15,15 @@ html {
     font-size: 16px;
     line-height: 24px;
   }
+
+  /* body._lock {
+    overflow: hidden;
+  } */
+
+  .wrapper {
+    min-height: 100%;
+    overflow: hidden;
+  }
   
   a {
     text-decoration: none;
@@ -37,9 +46,13 @@ html {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+
+  ul {
+    list-style: none;
+  }
   
   .container-center {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
   }
@@ -51,6 +64,43 @@ html {
 
   .main-header {
     text-align: center;
+      
+  }
+  
+  .main-header__menu {
+    display: flex;
+    order: 1;
+  }
+
+  .menu__icon {
+    /* order: 2; */
+    margin-left: auto;
+    display: none;    
+  }
+
+   .menu__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .menu__item:not(:last-child) {
+    margin: 0 41px 0 0;
+  }
+
+  .menu__item:hover,
+  .menu__item:focus {
+    color: #cd5b45;
+  }
+
+  .menu__item:active {
+    color: #e43512;
+  }
+
+  .menu__link {
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
   }
 
   .main-header__pic {
@@ -62,10 +112,14 @@ html {
     font-size: 21px;
   }
 
-.main-header__current-position {
-  font-size: 18px;
-}
+  .main-header__current-position {
+    font-size: 18px;
+  }
 
+  .main-content {
+    border-top: solid 1px #000000;
+  }
+ 
   .main-content__name {
     font-style: italic;
     font-weight: 700;
@@ -87,10 +141,19 @@ html {
     margin-left: auto;
   }
 
+
+  @media (max-width: 1300px) {
+    .skills,
+    .examples,
+    .contacts {
+      margin-left: 0;
+  }
+  }
+
   .skills__items-name {
     font-weight: 700;
   }
-
+ 
   .profile {
     order: -6;
   }
@@ -110,8 +173,11 @@ html {
     font-style: italic;
   }
 
-  .examples__list {
-    margin-top: 60px;    
+  .examples__list,
+  .skills__list,
+  .contacts__list {
+    margin: 0;
+    padding: 0;     
   }
 
 .examples__items {
@@ -146,6 +212,17 @@ html {
     margin-left: auto;
   }
 
+  @media (max-width: 768px) {
+    .main-footer {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .main-footer__copyright {
+      margin-left: 0;
+    }
+  }
+
   .main-footer__link {
     color:rgba(65, 58, 58, 0.884);
   }
@@ -158,4 +235,112 @@ html {
   .main-footer__link:active {
     text-decoration: none;
     color:#00008b;
+  }
+
+  @media (max-width: 767px) {
+    .menu__icon {
+      z-index: 5;
+      display: block;
+      position: relative;      
+      top: 10px;
+      width: 30px;
+      height: 20px;
+      cursor: pointer;
+    }
+    
+    .menu__icon span,
+    .menu__icon::before,
+    .menu__icon::after {
+      left: 0;
+      position: absolute;
+      height: 10%;
+      width: 100%;
+      transition: all 0.3s ease 0s;
+      background-color: #000;      
+    }  
+    
+    .menu__icon::before,
+    .menu__icon::after {
+      content: "";
+    }
+
+    .menu__icon::before {
+      top: 0;
+    }
+    
+    .menu__icon::after {
+      bottom: 0;
+    }
+
+    .menu__icon span {
+      top: 50%;
+      transform: scale(1) translate(0px, -50%);
+    }
+
+    .menu__icon._active span {
+      transform: scale(0) translate(0px, -50%);
+    }
+
+    .menu__icon._active::before {
+      top: 50%;
+      transform: rotate(-45deg) translate(0px, -50%);
+    } 
+
+    .menu__icon._active::after {
+      bottom: 50%;
+      transform: rotate(45deg) translate(0px, 50%);
+    } 
+
+    .menu__body {
+      /* display: none; */
+      position: absolute;
+      top: 0;
+      left: 0;
+      left: -100%;
+      transition: all 0.3s ease 0s;
+      width: 100%;
+      height: 100px;        
+    }
+
+    .menu__body._active {
+      left: 0;      
+    }
+
+    .menu__list {
+      flex-direction: column;
+      background-color: #f0f0e7; 
+      align-items: center;    
+    }  
+
+    .menu__item {
+      text-align: center; 
+       width: 140px;
+       padding: 7px 0 7px 0;
+      }
+
+      .menu__item:not(:last-child) {
+        margin: 0;      
+    }
+    
+    .main-header {
+      text-align: left;
+    }
+
+    .main-header__pic-cover {
+      text-align: center;
+    }
+
+    .main-header__pic {
+      margin-top: 0;
+      width: 125px;
+      height: 125px;
+    }
+
+    .main-header__name {      
+      font-size: 18px;
+    }
+
+    .main-header__current-position {      
+      font-size: 16px;
+    }
   }
