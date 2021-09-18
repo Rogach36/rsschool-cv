@@ -223,7 +223,6 @@ html {
     }
   }
 
-
   .main-footer__link {
     color:rgba(65, 58, 58, 0.884);
   }
@@ -242,8 +241,7 @@ html {
     .menu__icon {
       z-index: 5;
       display: block;
-      position: relative;
-      /* right: 90%; */
+      position: relative;      
       top: 10px;
       width: 30px;
       height: 20px;
@@ -322,7 +320,7 @@ html {
 
       .menu__item:not(:last-child) {
         margin: 0;      
-    }/*убрать свойство?*/
+    }
     
     .main-header {
       text-align: left;
