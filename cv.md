@@ -34,3 +34,9 @@ positiveSum([1,-4,7,12]);
  ## Education
 I graduated from Samara State University with a degree in Russian history in 2009.
 As I mentioned above, I graduated intensive course from the **HTML Academy**, before that I took their interactive courses, and a little earlier I attended a level 1 JavaScript course from **GeekBrains**. JS is given to me with great difficulty, I hope your courses will fill in the missing knowledge and allow me to confidently solve the problems facing junior web developer.
+
+## Contacts
+* E-mail: alekss.r@mail.ru;
+* Skype account: alrog63;
+* Cell-phone: +37491608146;
+* telegram: https://t.me/serb3.
