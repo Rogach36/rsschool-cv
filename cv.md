@@ -8,12 +8,13 @@ At my current job, I was **studying English** under the program of *the Universi
 
 ## Examples:
 
+// Поправить ссылки, сделать их активными потом комит, потом пуш
 ### Projects
-* https://rogach36.github.io/ebRaw/
-* https://rogach36.github.io/fresh/
-* https://rogach36.github.io/foodhub/
-* https://rogach36.github.io/Furniture/
-* https://rogach36.github.io/Wine-Shop/
+* [rogach36.github.io/ebRaw](https://rogach36.github.io/ebRaw/)
+* [rogach36.github.io/fresh](https://rogach36.github.io/fresh/)
+* [rogach36.github.io/foodhub](https://rogach36.github.io/foodhub/)
+* [rogach36.github.io/Furniture](https://rogach36.github.io/Furniture/)
+* [rogach36.github.io/Wine-Shop](https://rogach36.github.io/Wine-Shop/)
 
 ### Code example
 
