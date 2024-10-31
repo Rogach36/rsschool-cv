@@ -8,7 +8,6 @@ At my current job, I was **studying English** under the program of *the Universi
 
 ## Examples:
 
-// Поправить ссылки, сделать их активными потом комит, потом пуш
 ### Projects
 * [rogach36.github.io/ebRaw](https://rogach36.github.io/ebRaw/)
 * [rogach36.github.io/fresh](https://rogach36.github.io/fresh/)
@@ -32,7 +31,7 @@ function positiveSum(arr) {
 
 positiveSum([1,-4,7,12]);
 ```
- ## Education
+## Education
 I graduated from Samara State University with a degree in Russian history in 2009.
 As I mentioned above, I graduated intensive course from the **HTML Academy**, before that I took their interactive courses, and a little earlier I attended a level 1 JavaScript course from **GeekBrains**. JS is given to me with great difficulty, I hope your courses will fill in the missing knowledge and allow me to confidently solve the problems facing junior web developer.
 
